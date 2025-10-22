@@ -8,6 +8,21 @@
 
 int option_menu;
 
+void logar(){
+	system("cls");
+	printf("Logando...");
+	
+}
+
+void cadastrar(){
+	option_menu = 0;
+	system("cls");
+	cout >> ("Cadastrando...\n");
+	cout >> ("Dando inicio ao processo de cadastro, para continuar digite 1, caso deseje voltar ao menu inicial digite 2:");
+	cin << option_menu;
+	
+}
+
 void processo_login(){
 	printf("Processo de Login Inicializado \n");
 	printf("Bem vindo ao Sistema Odonto Company \n");
@@ -24,18 +39,17 @@ void processo_login(){
 			break;
 		
 		case 2:
-			printf("Cadastrando...");
+			cadastrar();
 			break;
 			
 		case 3:
 			printf("Saindo...");
+			return 0;
 			break;
 	}
 		
 	
-	
 }
 
-void logar(){
-	printf("Logando...");
-}
+
+
