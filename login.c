@@ -4,7 +4,7 @@
 
 #include <string.h>
 
-#include <io.stream>
+#include <iostream>
 
 int option_menu;
 
