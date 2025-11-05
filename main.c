@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include <stdio.h>
 
 #include <windows.h>  
@@ -9,6 +11,7 @@
 #include "login.h"
 
 
+using namespace std;
 
 int main(){
 	processo_login();

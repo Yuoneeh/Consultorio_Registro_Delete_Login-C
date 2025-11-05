@@ -4,6 +4,9 @@
 
 #include <string.h>
 
+#include <iostream>
+
+
 
 int option_menu;
 int user_in;
