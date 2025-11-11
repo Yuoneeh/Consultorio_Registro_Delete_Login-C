@@ -12,7 +12,10 @@
 
 using namespace std;
 
-int main()
-{
- 	processo_login();
+int main () {
+  ofstream myfile;
+  myfile.open ("example.txt");
+  myfile << "Writing this to aaaa file.\n";
+  myfile.close();
+  return 0;
 }
