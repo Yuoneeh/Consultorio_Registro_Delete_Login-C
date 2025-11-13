@@ -28,8 +28,8 @@ Folders=Login,menus,register
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=1
-CompilerSettings=0000000000000000001000000
-UnitCount=8
+CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+UnitCount=10
 
 [VersionInfo]
 Major=1
@@ -124,6 +124,26 @@ BuildCmd=
 FileName=login.h
 CompileCpp=1
 Folder=Login
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=main_menu.cpp
+CompileCpp=1
+Folder=menus
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=main_menu.h
+CompileCpp=1
+Folder=menus
 Compile=1
 Link=1
 Priority=1000

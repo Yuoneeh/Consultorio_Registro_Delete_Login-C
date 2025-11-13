@@ -10,22 +10,27 @@
 
 #include <fstream>
 
+#include "main_menu.h"
+
 using namespace std;
 
-char user_in;
-char user_correto;
-char senha_in;
-char senha_correto;
+string user_in;
+string user_correto;
+string senha_in;
+string senha_correto;
 
 void login(){
 	ofstream userf("user_login_data");
 	system("cls");
 	
-	cout << ("Insira seu Usuario: \n");
+	cout << ("Insira seu novo Login: \n");
 	cin >> (user_in);
-	
-	cout << ("Insira sua Senha: \n");
+			
+	cout << ("Insira sua nova Senha: \n");
 	cin >> (senha_in);
 	
+	main_menu();
 	
+	
+
 }

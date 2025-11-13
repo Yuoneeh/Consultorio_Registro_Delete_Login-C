@@ -27,7 +27,6 @@ void cadastrar(){
 	ofstream myfile;
  
 
-	
 	int option_menu = 0;
 	system("cls");
 	cout << ("Cadastrando...\n");
