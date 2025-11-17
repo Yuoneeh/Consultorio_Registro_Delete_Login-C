@@ -10,6 +10,8 @@
 
 #include "loginP.h"
 
+#include "register.h"
+
 using namespace std;
 
 int main_option_menu;
@@ -29,6 +31,7 @@ void main_menu(){
 		
 		case 1:
 				cout << ("Marcando consulta...");
+				cadastrar_consulta();
 				break;
 		case 2:
 				cout << ("Consultando Consultas");
